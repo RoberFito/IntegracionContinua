@@ -8,5 +8,6 @@ class PersonTest {
     void getNombre() {
         Person p = new Person("James");
         assertEquals("James", p.getNombre());
+        assertEquals("John", p.getNombre());
     }
 }
